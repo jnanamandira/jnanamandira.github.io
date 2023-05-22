@@ -18,8 +18,6 @@ import { theme } from './syntax-highlighting-theme';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://ai.shreepadhangari.me',
-	// base: '/ai-expert',
 	integrations: [
 		AutoImport({
 			imports: [asideAutoImport, codeSnippetAutoImport],
